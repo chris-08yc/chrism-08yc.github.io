@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="title">
+ <h2>Image gallery for my son Ian Cubaka</h2>
+ </div>
+
+<div class="gallery">
+  <img src="/images/my son.jpg" onclick="openPreview(this)">
+  <img src="/images/son1.jpg" onclick="openPreview(this)">
+  <img src="/images/son2.jpg" onclick="openPreview(this)">
+  <img src="/images/son3.jpg" onclick="openPreview(this)">
+  <img src="/images/son 4.jpg" onclick="openPreview(this)">
+  <img src="/images/son5.jpg" onclick="openPreview(this)">
+  <img src="/images/son6.jpg" onclick="openPreview(this)">
+  <img src="/images/son7.jpg" onclick="openPreview(this)">
+  <img src="/images/son8.jpg" onclick="openPreview(this)">
+  <img src="/images/son9.jpg" onclick="openPreview(this)">
+  <img src="/images/son10.jpg" onclick="openPreview(this)">
+  <img src="/images/son11.jpg" onclick="openPreview(this)">
+  <img src="/images/son12.jpg" onclick="openPreview(this)">
+  <img src="/images/mum.jpg" onclick="openPreview(this)">
+</div>
+
+<div id="previewBox" class="hidden">
+  <div id="previewContent">
+    <button id="closeBtn" onclick="closePreview()">×</button>
+    <img id="previewImg" src="/images/my son.jpg">
+  </div>
+</div>
+
+<script src="/script.js"></script>
+
+</body>
+</html>
